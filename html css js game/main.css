@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: #2196f3;
+    padding: 20px;
+    letter-spacing: -0.3px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+
+.parent{
+    max-width: 900px;
+    margin: auto;
+   
+}
+.parent div:not(.information-rules-of-game)
+{
+    text-align: center;
+    padding: 15px 0;
+}
+.parent div,
+.parent button,
+.parent input
+{
+    width: 100%;
+    margin-top: 15px;
+}
+button{
+    cursor: pointer;
+}
+.text-explain-game
+,.words-place{
+    background-color: white;
+}
+.words-place{
+    padding: 15px 25px !important;
+
+}
+.text-explain-game{
+    border-radius: 5px;
+}
+.text-explain-game span,
+.information-rules-of-game .time-left span,
+.information-rules-of-game .scores span
+{
+    color: #009688;
+    font-weight: bold;
+}
+
+.start-the-game{
+    border: none;
+    color: white;
+    padding: 20px;
+    background-color: #009688;
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    text-align: center;
+    height: 58px;
+    font-size: 20px;
+    outline: none;
+    border: 3px solid #2196f3;
+    border-radius: 6px;
+    caret-color: #2196f3;
+    text-transform: capitalize;
+}
+.information-rules-of-game{
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+div.style{
+    color: #2196f3;
+    font-size: 62px;
+    font-weight: bold;
+    padding: 0 !important;
+}
+span.word-style{
+    background-color: #2196f3;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    margin: 4px;
+    font-weight: bold;
+}
+.words-place span.none{
+    display: none;
+}
